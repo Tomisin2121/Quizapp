@@ -1,0 +1,22 @@
+.option-btn {
+  padding: 12px 20px;
+  margin: 6px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: white;
+}
+
+.option-btn.correct {
+  background-color: #4ADE80;
+  color: white;
+}
+
+.option-btn.incorrect {
+  background-color: #F87171;
+  color: white;
+}
+
+.option-btn.disabled {
+  opacity: 0.5;
+}
